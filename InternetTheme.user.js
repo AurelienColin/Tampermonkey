@@ -3,7 +3,8 @@
 // @include		 *google.*
 // @include      https://www.google.*/_/chrome/newtab*
 // @include      *wikipedia.*
-// @version      4.0
+// @updateURL    https://github.com/evazion/translate-pixiv-tags/raw/stable/translate-pixiv-tags.user.js
+// @version      5.0
 // @author       Rignak
 // ==/UserScript==
 // CSS
@@ -24,7 +25,7 @@ if (window.location.href.indexOf("wikipedia") >= 0) {
     bodybg = ["chrome-extension://adcngdagdmienhnkfgfbmjhbjffkjina/wikipedia/", index, ".jpg"].join('');
     addGlobalStyle('body { background: transparent url(" '+bodybg+' ") no-repeat bottom left fixed !important; z-index: 1 !important;}');}
 else {
-    index = Math.floor(Math.random() * 414) + 1;
+    index = Math.floor(Math.random() * 430) + 1;
     bodybg = ["chrome-extension://adcngdagdmienhnkfgfbmjhbjffkjina/google/", index, ".jpg"].join('');
     addGlobalStyle('body { background: transparent url(" '+bodybg+' ") no-repeat bottom right fixed !important; z-index: 1 !important;}');}
 
