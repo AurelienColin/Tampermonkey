@@ -25,7 +25,7 @@ if (window.location.href.indexOf("wikipedia") >= 0) {
     bodybg = ["chrome-extension://adcngdagdmienhnkfgfbmjhbjffkjina/wikipedia/", index, ".jpg"].join('');
     addGlobalStyle('body { background: transparent url(" '+bodybg+' ") no-repeat bottom left fixed !important; z-index: 1 !important;}');}
 else {
-    index = Math.floor(Math.random() * 430) + 1;
+    index = Math.floor(Math.random() * 450) + 1;
     bodybg = ["chrome-extension://adcngdagdmienhnkfgfbmjhbjffkjina/google/", index, ".jpg"].join('');
     addGlobalStyle('body { background: transparent url(" '+bodybg+' ") no-repeat bottom right fixed !important; z-index: 1 !important;}');}
 
