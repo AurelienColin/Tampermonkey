@@ -21,11 +21,11 @@ head.appendChild(style);
 
 var index, bodybg;
 if (window.location.href.indexOf("wikipedia") >= 0) {
-    index = Math.floor(Math.random() * 15) + 1;
+    index = Math.floor(Math.random() * 17) + 1;
     bodybg = ["chrome-extension://jooekinjmmfngaakmjldmbddeoooefme/wikipedia/", index, ".jpg"].join('');
     addGlobalStyle('body { background: transparent url(" '+bodybg+' ") no-repeat bottom left fixed !important; z-index: 1 !important;}');}
 else {
-    index = Math.floor(Math.random() * 450) + 1;
+    index = Math.floor(Math.random() * 478) + 1;
     bodybg = ["chrome-extension://jooekinjmmfngaakmjldmbddeoooefme/google/", index, ".jpg"].join('');
     addGlobalStyle('body { background: transparent url(" '+bodybg+' ") no-repeat bottom right fixed !important; z-index: 1 !important;}');}
 
